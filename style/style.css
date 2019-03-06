@@ -1,0 +1,318 @@
+/*hover*/
+
+.orange {
+    color: orange;
+    font-style: normal;
+    font-family: 'partybusiness';
+}
+
+.wanted {
+    position: relative;
+    opacity: 0.8;
+    font-family: 'partybusiness';
+}
+
+.wanted img {
+    opacity: 0.7;
+    background: white;
+}
+
+.wanted .coin {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 10%;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.wanted .coin .reward {
+    text-align: center;
+    padding: 2% 10%;
+    font-family: 'partybusiness';
+    font-size: 28px;
+
+}
+
+.wanted .gandalf {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-size: 55px;
+    font-family: 'partybusiness';
+
+}
+
+.wanted .dead {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: black;
+    font-size: 50px;
+    font-family: 'partybusiness';
+}
+
+.wanted:hover img {
+    opacity: 1;
+    transition: .1s ease;
+}
+
+.wanted:hover .coin .reward {
+    display: none;
+}
+
+.wanted:hover .gandalf {
+    top: 80%;
+    font-size: 30px;
+    left: 35%;
+    font-family: 'partybusiness';
+}
+
+.card-text {
+    font-family: 'partybusiness';
+    color: rgb(156, 156, 156);
+    font-size: 25px;
+    background-color: rgb(39, 39, 39);
+}
+
+.card {
+    background-color: rgb(39, 39, 39);
+    border-width: 5px;
+    border-radius: 0%;
+
+}
+
+.gimliDead {
+    position: absolute;
+    font-family: 'partybusiness';
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    top: 10%;
+    left: 35%;
+}
+
+.gimliBarre {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 55px;
+}
+
+.gimliBarre hr{
+    position: absolute;
+    color: orange;
+    width: 80% !important;
+    border: 3px solid orange !important;
+    top: 30%;
+    left: 40%;
+
+}
+
+/*footer*/
+
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'anirm___';
+}
+
+/* police titre */
+@font-face {
+    font-family: 'anirm___';
+    src: url('anirm___.ttf');
+}
+
+/* police texte */
+
+@font-face {
+    font-family: 'partybusiness';
+    src: url('partybusiness.ttf');
+}
+
+/*symbole*/
+@font-face {
+    font-family: 'tngani';
+    src: url('tngani.ttf');
+}
+
+
+/*navbar*/
+.navbar a {
+    font-family: 'anirm___';
+    color: white;
+    font-size: 90%;
+}
+
+.navbar img {
+    width: 100%;
+}
+
+#navbarColor03 {
+    padding-left: 15%;
+}
+
+/*carousel*/
+.carousel-caption h5 {
+    position: absolute;
+    padding-right: 5%;
+    bottom: 350%;
+    font-family: 'partybusiness';
+    font-size: 50px;
+    margin-top: 50%;
+
+}
+
+.carousel-caption h4 {
+    position: absolute;
+    padding-right: 10%;
+    z-index: 1;
+    font-family: 'partybusiness';
+    font-size: 30px;
+    bottom: 400%;
+
+}
+
+.carousel-caption {
+    margin-left: 10%;
+    margin-bottom: 7%;
+    margin-top: 10%;
+}
+
+/*pills*/
+.symbole {
+    font-family: "tngani", Helvetica, Arial, sans-serif !important;
+    color: orange;
+}
+
+.texteWanted h2 {
+    font-family: "anirm___";
+    font-size: 25px;
+
+}
+
+.sectexte {
+    font-size: 20px;
+    font-family: 'anirm___';
+}
+
+.boutonCouleur button {
+    font-family: 'anirm___';
+    color: grey;
+
+}
+
+.boutonCouleur button:hover {
+    font-family: 'anirm___';
+    color: orange;
+    text-decoration: underline;
+
+}
+
+
+.policeReward h2 {
+    font-family: "anirm___";
+    font-size: 25px;
+    color: white;
+
+
+}
+
+.policeRewardP p {
+    font-family: 'partybusiness';
+    color: white;
+    font-size: 20px;
+}
+
+body .bac {
+    background-image: url('./integration_maquette_finale/bg_light.png') !important;
+    background-repeat: repeat;
+
+}
+
+body .bacR {
+    background-image: url('./integration_maquette_finale/bg_dark.png') !important;
+    background-repeat: repeat;
+
+}
+
+section .capture {
+    top: 20%;
+}
+
+.container hr {
+
+    width: 22% !important;
+    border: 3px solid orange;
+
+}
+
+.capture img {
+    border-radius: 50%;
+}
+
+.container h2 {
+    font-family: "anirm___";
+    font-size: 25px;
+
+}
+
+.Besthunter p {
+    font-family: 'partybusiness';
+    font-size: 30px;
+
+}
+
+.Besthunter h3 {
+    color: orange;
+    font-family: 'partybusiness';
+    font-size: 35px;
+
+}
+
+.card .About {
+    color: white;
+    background-color: grey;
+
+}
+
+.About {
+    background-color: orange;
+    font-family: 'partybusiness';
+    color: white;
+    border: black;
+    border-radius: 10px;
+    
+}
+
+.card .baba{
+    font-family: "anirm___";
+
+}
+.ring{
+    background-image: url('./integration_maquette_finale/bg_dark.png')
+}
+
+.ring h2{
+    font-family: "anirm___";
+    color:white;
+}
+
+footer .container{
+    background-color: orange;
+    border: orange;
+
+}
+
+.About table{
+    font-family: 'anirm___'!important;
+}
+
+.gollum img{
+    border-radius: 200%;
+}
