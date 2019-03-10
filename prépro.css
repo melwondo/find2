@@ -1,0 +1,37 @@
+/*navbar*/
+.navbar a {
+    font-family: 'anirm___';
+    color: white;
+    font-size: 90%;
+}
+
+.navbar img {
+    width: 100%;
+}
+
+#navbarColor03 {
+    padding-left: 15%;
+}
+
+
+/*body*/
+body .bac {
+    background-image: url('./integration_maquette_finale/bg_light.png') !important;
+    background-repeat: repeat;
+
+}
+
+/*footer*/
+
+footer .container{
+    background-color: #ff5f01;
+    
+
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'anirm___';
+}
